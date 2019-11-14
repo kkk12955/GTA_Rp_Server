@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Users\user\Desktop\server\FXServer.exe C:\Users\user\Desktop\server\resources\[system]\[builders]\yarn\yarn_cli.js install
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  12.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.1.tgz: ENOENT: no such file or directory, open 'C:\Users\user\AppData\Local\Yarn\Cache\v4\npm-bluebird-3.7.1-df70e302b471d7473489acf26a93d63b53f874de\node_modules\bluebird\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "webpack-builder",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "async": "^2.6.1",
+      "webpack": "^4.12.0",
+      "worker-farm": "^1.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

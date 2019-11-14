@@ -1,0 +1,63 @@
+/*R-editado e adicionado por Bebiano86 ( Administrador SeyfertGaming), por favor não me retirem os créditos da edição*/
+/*R-editado e adicionado por Bebiano86 (Administrador SeyfertGaming), por favor não me retirem os créditos da edição*/
+
+
+#status_list {
+	position: absolute;
+	left   : 380px; /*posição do status*/
+	bottom : 3%;
+	width  : 4%; /*comprimento das barras*/
+	transform: rotateZ(270deg); /*rotação das barras*/
+	opacity: 0.9; /*transparência*/
+}
+
+/*Texto da comida*/
+.comida p {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    right: 35%;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	font-variant: small-caps;
+	letter-spacing: 3px;
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/*Texto da água*/
+.agua p {
+    margin: 0;
+    position: absolute;
+    top: 68.5%;
+    left: 37%;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	font-variant: small-caps;
+	letter-spacing: 3px;
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.status {
+	padding: 1px; /*espaço entre as barras*/
+	margin: 0.3em;
+	border: 2px solid #000000;
+	border-radius: 50px; /*formato redondo*/
+
+}
+
+.status_inner {
+	height : 3.5em; /*espessura da barra interior*/
+	padding: 2px; /*largura das bordas exteriores*/
+	border-radius: 50px; /*formato redondo*/
+}
+
+.status_val {
+	margin: auto;
+	height : 3.5em; /*espessura da barra interior*/
+	border-radius: 50px; /*formato redondo*/
+
+}
